@@ -8,12 +8,20 @@
   <sprites name="sprites">
     <sprite>sprites\sPlayer1</sprite>
     <sprite>sprites\sProjectile</sprite>
+    <sprite>sprites\sBadguy</sprite>
+    <sprite>sprites\sprite4</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\background0</background>
+  </backgrounds>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\oPlayer1</object>
     <object>objects\oProjectile</object>
+    <object>objects\oBadguy</object>
+    <object>objects\controller</object>
+    <object>objects\object4</object>
+    <object>objects\oSpawner</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
